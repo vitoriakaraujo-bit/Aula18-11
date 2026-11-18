@@ -1,0 +1,78 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e0e8ff url("https://www.digitshack.com/codepen/mentor1/pattern-background-desktop.svg") no-repeat top;
+    font-family: Arial;
+    text-align: center;
+}
+
+.card {
+    background: white;
+    width: 450px;
+    margin: 100px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    padding-bottom: 45px;
+}
+
+.topo {
+    width: 100%;
+    display: block;
+}
+
+h2 {
+    color: #192d50;
+    margin: 45px 0 20px;
+}
+
+.card > p {
+    color: #78849f;
+    line-height: 26px;
+    margin-bottom: 22px;
+}
+
+.plano {
+    background: #f7f8fc;
+    margin: 25px 48px 30px;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plano img {
+    width: 48px;
+}
+
+.plano p {
+    color: #78849f;
+    margin-top: 8px;
+}
+
+.plano a {
+    color: #3825df;
+    font-weight: bold;
+}
+
+button {
+    background: #3825df;
+    color: white;
+    border: none;
+    padding: 17px;
+    width: 79%;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+h4 {
+    color: #78849f;
+    margin-top: 32px;
+    cursor: pointer;
+}
